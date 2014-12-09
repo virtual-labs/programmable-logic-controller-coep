@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px/1.4 arial, Arial, Helvetica, sans-serif;
+    min-width: 1200px;
+    background: url(../../assert/images/body-bg.png);
+   
+}
+
+.console-window {
+	height: 170px;
+	overflow: scroll;
+}
+ 
+.work-space{
+	background: none repeat scroll 0 0 #fff;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position : relative;
+  //  top:318px;
+ //   left: 42px;
+    width: 1197px;
+}
+.currentleft{
+	background: none repeat scroll 0 0 #fff;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position : absolute;
+    top:308px;
+    left: 130px;
+    width: 1100px;
+}
+table{
+	position: relative;
+	left:-15px;
+	top : -5px;
+}
+article,aside,footer,header,nav,section {
+    display: block;
+}
+.width-set {
+    width: 1200px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text{
+    text-decoration: none;
+}
+header {
+    background: url(../../assert/images/header-bg.png) repeat-x ;
+    height: 55px;
+}
+footer {
+    background: url(../../assert/images/footer-bg.png) repeat-x;
+    height: 55px;
+}
+.logo {
+    color: #73BC1E;
+    font-size: 30px;
+    margin-right: 42px;
+}
+label {
+    color: #FFFFFF;
+}
+header nav ul li {
+    font-size: 12px;
+    padding: 14px 17px 14px 22px;
+    background: url(../../assert/images/nav-separator.png) no-repeat;
+    list-style: none;
+    height: 17px;
+}
+header nav ul li a {
+    color: #999999;
+}
+header nav ul li a:hover {
+    color: #ffffff;
+}
+header nav ul li.current a {
+    color: #ffffff;
+}
+.main-page {
+    height: 1301px;
+}
+hgroup h2{
+    color: #666666;
+    font-size: 15px;
+    font-weight: normal;
+    margin: -52px 3px;
+}
+.main-head {
+    background: url(../../assert/images/plc-head-bg.png);
+    border: 1px solid #A6A6A6;
+     border-radius: 8px 8px 8px 8px;
+    height: 140px;
+}
+.main-head div.button-menu {
+    background: url("../../assert/images/button.png") repeat scroll 0 0 transparent;
+    border: 1px solid #A6A6A6;
+    border-radius: 8px 8px 8px 8px;
+    height: 40px;
+    margin: 15px 26px;
+    width: 664px;
+}
+.main-head div.button-menu a {
+    background: url("../../assert/images/button-separator.png") no-repeat scroll 0 0 transparent;
+    color: #555;
+    font-size: 17px;
+    height: 39px;
+    padding: 6px 8px 0 10px;
+}
+.main-head div.button-menu a.first{
+    background:transparent;
+    border-radius: 8px 0 0 8px;
+}
+.main-head div.button-menu a.last{
+    border-radius: 0 8px 8px 0;
+    position: absolute;
+     padding-left: 24px;
+}
+.main-head div.main-head-left div.button-menu a.current {
+    background: none repeat scroll 0 0 #999999;
+    background-image: -moz-linear-gradient(center bottom , #FFFFFF 0%, #000000 100%);
+    box-shadow: 0 0 11px #000000 inset;
+    color: #fff;
+     height: 33px;
+}
+.main-head div.main-head-left div.button-menu a:hover {
+    color: #fff;
+    height: 33px;
+}
+.main-footer div a.current {
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+   // background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+   // background-image: linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+    height: 25px;
+    width: 86px;
+}
+.main-footer div a:hover {
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+    background-image: linear-gradient(bottom, #FFFFFF 0%, #000000 100%);
+}
+.full-screen:hover {
+    background: url("../../assert/images/icons/fullscreen-active.png") no-repeat scroll 0 0 transparent;
+}
+.main-content {
+    height: 699px;
+    margin: -4px 0px 0px 0px;
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999; 
+}
+/*.work-space{
+    height: 651px;
+    width: 1198px;
+    background: white;
+    box-shadow: 0 -2px 4px #888888 inset;
+}
+*/
+footer label {
+    color: #727272;
+    font-size: 10px;
+    margin: 23px 0px 0px 490px;
+}
+hgroup h1 {
+    background: url("../../assert/images/name.png") repeat scroll 0 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0;
+    height: 25px;
+    margin-top: 9px;
+    width: 100px;
+}
+hgroup h3 {
+    background: url("../../assert/images/drop-down.png") no-repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 10px;
+    margin: 16px -90px;
+    width: 13px;
+}
+hgroup h4{
+    background: url("../../assert/images/plc-heading.png") no-repeat scroll 0 0 transparent;
+    font-size: 0;
+    height: 53px;
+    margin: -45px 0 0 0px;
+}
+.logoCircle{
+	background: none repeat scroll 0 0 #D6D6D6;
+    border-radius: 0 0 5px 5px;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(111, 192, 220, 0.5) inset;
+    height: 123px;
+    position: absolute;
+    width: 123px;
+    z-index: 10;
+}
+.menu-separator {
+    background: url("../../assert/images/menu-separator.png") no-repeat scroll 0 0 transparent;
+    height: 140px;
+    width: 3px;
+    margin: 0 0 0 13px;
+}
+.button-submenu{
+   color: black;
+    margin: 37px 16px 0;
+    padding: 43px 0 0;
+    width: 43px;
+}
+.main-head-right a:nth-child(4){
+    text-indent: -6px;
+}
+.main-head-right a:nth-child(3){
+     margin-top: 41px;
+    padding: 38px 0 0;
+}
+.main-head-right a:nth-child(5){
+    margin-top: 40px;
+    padding: 40px 0 0;
+}
+.main-head-right a:nth-child(2){
+    margin-top: 41px;
+    padding: 38px 0 0 7px;
+}
+.new{
+     background: url("../../assert/images/icons/download-plc.png") no-repeat scroll 0 0 transparent;
+}
+.devl-tool{
+     background: url("../../assert/images/icons/Development-tools.png") no-repeat scroll 0 0 transparent;
+      margin-left: -2px;
+}
+.open {
+    background: url("../../assert/images/icons/open.png") no-repeat scroll 0 0 transparent;
+    width: 48px;
+}
+.save {
+    background: url("../../assert/images/icons/save.png") no-repeat scroll 0 0 transparent;
+}
+.compile {
+    text-indent: -9px;
+    background: url("../../assert/images/icons/compile.png") no-repeat scroll 0 0 transparent;
+}
+.run {
+    background: url("../../assert/images/icons/run.png") no-repeat scroll 0 0 transparent;
+}
+.new:hover {
+    background: url("../../assert/images/icons/download-plc-active.png") no-repeat scroll 0 0 transparent;
+    color: #65A41A;
+}
+.devl-tool:hover{
+     background: url("../../assert/images/icons/Development-active.png") no-repeat scroll 0 0 transparent;
+    color: #65A41A;
+    margin-left: -2px;
+}
+.open:hover {
+    background: url("../../assert/images/icons/open-active.png") no-repeat scroll 0 0 transparent;
+    color: #3399FF;
+}
+.save:hover {
+    background: url("../../assert/images/icons/save-active.png") no-repeat scroll 0 0 transparent;
+    color: #65A41A;
+}
+.run:hover {
+    background: url("../../assert/images/icons/run-active.png") no-repeat scroll 0 0 transparent;
+    color: #65A41A;
+}
+.compile:hover {
+    background: url("../../assert/images/icons/compile-active.png") no-repeat scroll 0 0 transparent;
+    color: #65A41A;
+}
+.full-screen {
+    background: url("../../assert/images/icons/fullscreen.png") no-repeat scroll 0 0 transparent;
+    height: 17px;
+    width: 20px;
+    margin: 5px 6px;
+}
+.tab-border {
+    background: none repeat scroll 0 0 #E7E7E7;
+    border-top: 1px solid #9C9C9C;
+    border-bottom: 1px solid #9C9C9C;
+    height: 8px;
+    margin-top: -1px;
+    width: 1198px;
+}
+section .Basic ,section .Arithmetic,section .Counters-Timers,section .Comparative,section .Jump-Move,section .Control,section .Logic{
+    margin: 3px 18px;
+    display:none;
+}
+.buttons {
+    background: url("../../assert/images/sub-button.png") repeat scroll 0 0 transparent;
+    border: 1px solid #505050;
+    border-radius: 6px 6px 6px 6px;
+    color: #505050;
+    height: 25px;
+    margin-left: 20px;
+    width: 80px;
+}
+.main-footer {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #999999;
+    box-shadow: 0 2px 4px #888888 inset;
+    height: 184px;
+    margin-top: -4px;
+    width: 1198px;
+}
+article.main-footer div {
+    background: url("../../assert/images/button.png") repeat scroll 0 0 transparent;
+    height: 28px;
+    border-bottom: 1px solid #A6A6A6;
+}
+article.main-footer div a {
+    border-right: 1px solid #555555;
+    height: 25px;
+    width: 86px;
+}
+article.main-footer div a {
+    color: black;
+    text-align: center;
+    padding: 4px 8px 0 15px;
+}
+.console-window {
+    color: red;
+}
+.tab-list {
+    height: 34px;
+    margin: 4px 0 0;
+    overflow: hidden;
+    padding: 0;
+    width: 1198px;
+}
+.main-head-left {
+    width: 692px;
+    height: 137px;
+}
+.main-head-right {
+    width: 490px;
+}
+.tab-list dt {
+    margin: 10px -25px 0px 0px;
+    height: 65px;
+    width: 137px;
+    position: relative;
+    border-top-right-radius: 20px 60px;
+    border-top-left-radius: 20px 60px;
+    border: 1px solid transparent;
+    z-index: 1;
+    cursor: pointer;
+}
+.tab-list dt:first-child { }
+.tab-list .current {
+    z-index: 100;
+}
+.left-mask,.right-mask {
+    width: 10px;
+    height: 3px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+}
+.current .left-mask,.current .right-mask { }
+.left-mask {
+    left: -1px;
+}
+.right-mask {
+    right: -1px;
+}
+.left-mask span,.right-mask span {
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+}
+.left-mask span {
+    margin: -10px -9px;
+}
+.right-mask span {
+    margin: -10px 0px;
+}
+.tab-list dt a {
+    display: block;
+    line-height: 25px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: 13px;
+    background-image: url(default.png);
+    background-repeat: no-repeat;
+    background-position: 18px center;
+    color: #444;
+}
+.tab-list {
+    background: #E5E5E5; /* Old browsers */
+    background: none repeat scroll 0 0 #E5E5E5;
+}
+.tab-list dt {
+  background-repeat: repeat-x; 
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BBBBBB), to(#fff));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #BBBBBB, #fff);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #BBBBBB, #fff);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #BBBBBB, #fff);
+  border: 1px solid #777;
+  -webkit-box-shadow: inset 0 0 2px #BBBBBB;
+   box-shadow: inset 0 0 2px #BBBBBB;
+}
+.tab-list dt.current {
+background: #dedede; /* Old browsers */
+background: -moz-linear-gradient(top, #dedede 0%, #cfcfcf 22%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dedede), color-stop(22%,#cfcfcf)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #dedede 0%,#cfcfcf 22%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #dedede 0%,#cfcfcf 22%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #dedede 0%,#cfcfcf 22%); /* IE10+ */
+background: linear-gradient(to bottom, #dedede 0%,#cfcfcf 22%); /* W3C */
+//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#cfcfcf',GradientType=0 ); /* IE6-9 */
+}
+.left-mask span,.right-mask span {
+    border-color: rgba(207,208,207,1);
+}
+.left-mask span {
+    -webkit-box-shadow: inset -1px 0 1px #9c9c9c;
+    box-shadow: inset -1px 0 1px #9c9c9c;
+}
+.right-mask span {
+    -webkit-box-shadow: inset 1px 0 1px #9c9c9c;
+    box-shadow: inset 1px 0 1px #9c9c9c;
+}
+.current .left-mask span,.current .right-mask span {
+    border-color: #CFCFCF;
+}
+.tab-list dt div.img {
+    background: url("../../assert/images/tab-close.png") no-repeat scroll 0 0 transparent;
+    height: 7px;
+    margin: 9px 15px;
+    width: 12px;
+}
+.tab-list dt.current div.img,.tab-list dt div.img:hover {
+    background: url("../../assert/images/tab-close-active.png") no-repeat scroll 0 0 transparent;
+}
+a.create-tab {
+    background: url("../../assert/images/new-tab.png") no-repeat scroll 0 0 transparent;
+    margin: 17px 31px;
+    height: 16px;
+    width: 14px;
+}
+a.create-tab:hover {
+    background: url("../../assert/images/new-tab-active.png") no-repeat scroll 0 0 transparent;
+}
+.vlab{
+     background: none repeat scroll 0 0 #666666;
+    border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    color: #DDDDDD;
+    cursor: pointer;
+     height: 28px;
+    margin: 79px 0 0 -24px;
+     width: 52px;
+}
+.vlab:hover{
+    color: white;
+}

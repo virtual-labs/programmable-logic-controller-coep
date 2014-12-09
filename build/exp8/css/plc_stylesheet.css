@@ -1,0 +1,104 @@
+	*{
+			padding:0px;
+			margin:0px;
+		}
+		
+		#canvasdiv
+		{
+			position:absolute;
+			left:265px;
+			
+			border:1px solid blue;
+			background-color: black;
+			overflow-y: auto;
+		}
+		#maincanvasdiv
+		{
+			position:relative;
+			border:1px solid gray; 
+			
+		}
+		
+		
+		#sidediv
+		{
+			position:absolute;
+			background-color:green;
+			
+			border:1px solid gray;
+			height:auto;
+			width:270px;
+		}
+		.dialogbox
+		{
+			
+			border:5px solid #8467D7;
+			border-radius: 5;
+			
+		}
+		#PIDdialog
+		{
+			background: #747170;	
+		}
+		#innerPIDdialog
+		{
+			position: relative;
+	left: 3px;
+	height: 150px;
+	width: 300px; //
+	border: 1px solid black;
+	border-radius: 10;
+		}
+		
+		.btn
+		{
+			width:75px;
+			height:30px;
+			
+			font-weight: bold;
+			border-radius:5px; 
+		}
+		
+		#configbtn
+		{
+			position:relative;
+			left:10px;
+			width:140px;
+			height:30px;
+			
+			font-weight: bold;
+			border-radius:5px; 
+		}
+		#pControlSubmitbtn {
+			position: relative;
+			left: 20px;
+			width: 120px;
+			height: 30px;
+		}
+
+		#manualModebtn {
+			position: relative;
+			left: 20px;
+			width: 120px;
+			height: 30px;
+		}
+		#pControl
+		{
+			position: absolute;
+			left: 340px;
+			top: 60px;
+			width: 200px;
+			border: 2px solid black;
+			border-radius: 5px;
+		}
+		.innerControls
+		{
+			position:relative;
+			left:10px;
+			padding: 10px 5px 5px;
+		}
+		.source
+		{
+			position:relative;
+			left : 80px;
+		}

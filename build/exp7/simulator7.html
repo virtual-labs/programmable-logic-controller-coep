@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8' />
+	<title>PLC-Simulator</title>
+	<![if !IE]>
+	<link rel='stylesheet' href='css/style.css' />
+	<link rel="stylesheet" href="css/plc_stylesheet.css">
+	<link rel="stylesheet" href="../assert/css/jquery-ui-1.8.20.custom.css" />
+	<link rel="stylesheet" href="../assert/css/jquery.ui.all.css">
+	<link rel="stylesheet" href="../assert/css/jquery.contextMenu.css">
+	<link rel="stylesheet" href="../assert/css/impromptu.css">
+	<![endif]-->
+
+	<script ="text/javascript" src='../assert/lib/jquery-1.7.1.min.js'></script>
+	<script type="text/javascript" src="../assert/lib/jquery.nicescroll.js"></script>
+	<script src="../assert/lib/jquery-ui-1.8.20.custom.js"></script>
+	<script src="../assert/lib/jquery.contextMenu.js"></script>
+	<script type="text/javascript" src="../assert/lib/underscore.js"></script>
+	<script type="text/javascript" src="../assert/lib/backbone.js"></script>
+	<script type="text/javascript" src="../assert/lib/backbone-relational.js"></script>	
+	<script type="text/javascript" src="../assert/lib/jquery-impromptu.4.0.min.js"></script>
+	<script src="../assert/lib/raphael.js"></script>
+	<script src="../assert/lib/jquery.ui.position.js"></script>
+	<script src="../assert/lib/jquery.hotkeys.js"></script>
+
+	<script type="text/javascript">
+	</script>	
+</head>
+<body id="player" oncontextmenu="return false;">
+	<header>
+		<div class="width-set">
+			<div class = "logoCircle">
+			     <img src="../assert/images/coep_logo.png" />
+			</div>
+			<!-- header menu start-->
+			<!-- <nav>
+				<ul >
+					<li class = "current  left">
+						<a href="" class="text">Home</a>
+					</li>
+					<li class="left">
+						<a href="" class="text">Lorem</a>
+					</li>
+					<li class="left">
+						<a href="" class="text">Ipsum</a>
+					</li>
+					<li class="left">
+						<a href="" class="text">Dolor</a>
+					</li>
+					<li class="left" class="text"></li>
+				</ul>
+			</nav>  --><!-- END  header menu-->
+			<!-- user name -->
+			<hgroup>
+				<h1 class="right">user-name</h1>
+				<h3 class="right">drop</h3>
+			</hgroup>
+		</div>
+	</header> <!-- END header -->
+	<!-- main page start-->
+	
+	<section class="main-page width-set" id="plc-editor" >
+		<hgroup>
+			<h4>Programming logic control</h4>
+			
+		</hgroup>
+		<!-- heading of main page -->
+		<article class="main-head">
+			<!--left column of main-page heading -->
+			<div class="main-head-left left">
+				<!--Button menu -->
+				<div class="button-menu ">
+					<div class="basic">
+						<a href="#" class="left first text">Basic</a>
+					</div>
+					<div class="basic ">
+						<a class="left text" href="#" >Arithmetic</a>
+					</div>
+					<div class="basic">
+						<a href="#" class="left text last">Counters-Timers</a>
+					</div>
+					
+					
+				</div>
+				<section class="Basic left">
+					<table  cellspacing="7">
+					<tr>
+					<td><button id = "addRung" class="buttons" autofocus="autofocus" title="Add Rung">|----|</button></td>
+					<td><button id = "openContact" class="buttons" autofocus="autofocus" title="Add Open Contact">--[ ]--</button></td>
+					<td><button id = "closeContact" class="buttons" autofocus="autofocus" title="Add Close Contact">--[/]--</button></td>
+					<td><button id = "addOutput" class="buttons" autofocus="autofocus" title="Add Output">--( )--</button></td>
+					<td><button id = "OLT" class="buttons" autofocus="autofocus" title="Add Latch">--(L)--</button></td>
+					<td><button id = "OTU" class="buttons" autofocus="autofocus" title="Add UnLatch">--(U)--</button></td>
+					</tr>
+					<tr>
+					<td><button id = "mousePointer" class="buttons" autofocus="autofocus" title="Mouse Pointer">mouse</button></td>
+					
+					</tr>
+					</table>
+						
+				</section>
+				<section class="Arithmetic left">
+						<button id = "ADD" class="buttons" autofocus="autofocus" title="Addition">
+							ADD		
+						</button>
+						<button id = "SUB" class="buttons" autofocus="autofocus" title="Subtraction">
+							SUB
+						</button>
+						<button id = "MUL" class="buttons" autofocus="autofocus" title="Multiplication">
+							MUL
+						</button>
+						<button id = "DIV" class="buttons" autofocus="autofocus" title="Division">
+							DIV
+						</button>
+						<button id = "CPT" class="buttons" autofocus="autofocus" title="Compute">
+							CPT
+						</button>
+						
+				</section>
+				<section class="Counters-Timers left">
+						<button id = "TON" class="buttons" autofocus="autofocus" title="Timer ON">
+							TON
+						</button>
+						<button id = "TOF" class="buttons" autofocus="autofocus" title="Timer OFF">
+							TOF
+						</button>
+						<button id = "RTO" class="buttons" autofocus="autofocus" title="Retentive Timer On">
+							RTO
+						</button>
+						<button id = "CTU" class="buttons" autofocus="autofocus" title="Count Up">
+							CTU
+						</button>
+						<button id = "CTD" class="buttons" autofocus="autofocus" title="Count Down">
+							CTD
+						</button>
+						<button id = "RES" class="buttons" autofocus="autofocus" title="Reset">
+							--(R)--
+						</button>
+				</section>
+			<!--column separator -->
+			</div>  <!-- END main-head-left -->
+			<span class="menu-separator left"></span>
+			<!--right coloumn of main page heading -->
+			<div class="main-head-right right">
+				<!-- menu buttons -->
+				<!--<a href="#" class="button-submenu new left text" id="download"> Download</a>-->
+				<a href="#" class="button-submenu open left text" id="openfile">Open</a>
+				<a href="#" class="button-submenu save left text" id="savefile">Save</a>
+				<a href="#" class="button-submenu compile left text" id="compileMode" >Compile</a>
+				<a href="#" class="button-submenu run left text" id="runMode">Run</a>
+				<a href="#" class="button-submenu devl-tool left text" id="developementMode">Development</a>
+				<a href = "#"class="full-screen right" ></a>
+			
+			</div> <!-- END main-head-right -->
+		</article> <!-- END main-head -->
+		<!--main content of page starts -->
+		<article class="main-content left">
+			<!--tabs of main content -->
+			<dl class="tab-list left" id="">
+				<span id="Tab-list">
+				<dt class="current left" data-tab="tabhead1">
+					<span class="left-mask "><span></span></span>
+                    <a class="text left">Tab 1</a><span class="img right"></span>
+                    <span class="right-mask"><span></span></span>
+				</dt>
+			</span>
+				<a   id="Add-Tab" class="create-tab left"></a>
+			</dl>
+				 <p class="tab-border left"></p>
+				<div id="tabhead1" class="work-space">
+					tab-1
+				</div>
+			
+
+			<!-- <div class="tab-border left"></div>
+			<div class="work-space left" >-->
+				<!--<div  id = "container" class="container"> </div>
+			<!--</div>-->
+		</article> <!-- END of main-content -->
+		<div id="PIDdialog"  title="CONFIGURATION" style="display: none">
+				
+				<br/><br/><br/><label>MODE</label><br/>
+				
+				<input type="radio" name="mode" value="auto" /> Auto<br />
+				<input type="radio" name="mode" value="manual" />Manual<br /><br/>
+				
+				<div id="innerPIDdialog">
+					<label>ACTION</label><br/>
+					<input type="radio" name="mode2" value="direct" /> Direct
+					<input type="radio" name="mode2" value="reverse" />Reverse<br /><br/><br/>
+					<label>CONTROL</label><br/>
+					<input type="radio" name="mode3" value="p" /> P &nbsp;&nbsp;
+					<input type="radio" name="mode3" value="pi" /> P+I&nbsp;&nbsp;
+					<input type="radio" name="mode3" value="pd" /> P+D&nbsp;&nbsp;
+					<input type="radio" name="mode3" value="pid" /> P+I+D
+			</div>
+				
+				<div id="typeset">
+					<label>TYPE</label><br/>
+
+					<input type="radio" name="mode4" value="non-intreracting" /> Non-Intreracting
+					<input type="radio" name="mode4" value="parallel" />Parallel<br /><br/>
+				</div>
+				<br/><input type="button" id="configbtn" value="Configure" /> 
+				
+				<div id="pControl">
+					<div id="innerpControl" class="innerControls">
+						<label>kp(0.01 to 1)</label><br/>
+						<input type="text" id="p_kp"/><br/>
+						<label>Po(40 to 60 )</label><br/>
+						<input type="text" id="p_Po"/><br/>
+						<label>SetPoint(0 to 100)</label>
+						<input type="text" id="p_SetPoint"/><br/>
+						<label>MaxInput(0 to 100)</label>
+						<input type="text" id="p_MaxInput"/><br/>
+						<label>MinInput(0 to 100)</label>
+						<input type="text" id="p_MinInput"/><br/></br>
+						<input type="button" id="pControlSubmitbtn" value="SUBMIT" class="submitbtn"/> 	
+					</div>	
+					<div id="innerpiControl" class="innerControls">
+						<label>SetPoint(0 to 100)</label>
+						<input type="text" id="pi_SetPoint"/><br/>
+						<label>MaxInput(0 to 100)</label>
+						<input type="text" id="pi_MaxInput"/><br/>
+						<label>MinInput(0 to 100)</label>
+						<input type="text" id="pi_MinInput"/><br/>
+						<label>kp(0.01 to 1)</label><br/>
+						<input type="text" id="pi_kp"/><br/>
+						<label>Po(40 to 60 )</label><br/>
+						<input type="text" id="pi_Po"/><br/>
+						<label>ki(0.001 to 100 sec)</label><br/>
+						<input type="text" id="pi_ki"/><br/>
+						<label>Time(0 to 60 sec)</label><br/>
+						<input type="text" id="pi_time"/><br/>
+						
+						<input type="button" id="pControlSubmitbtn" value="SUBMIT" class="submitbtn"/> 	
+					</div>	
+					<div id="innerpdControl" class="innerControls">
+						<label>SetPoint(0 to 100)</label>
+						<input type="text" id="pd_SetPoint"/><br/>
+						<label>MaxInput(0 to 100)</label>
+						<input type="text" id="pd_MaxInput"/><br/>
+						<label>MinInput(0 to 100)</label>
+						<input type="text" id="pd_MinInput"/><br/>
+						<label>kp(0.01 to 1)</label><br/>
+						<input type="text" id="pd_kp"/><br/>
+						<label>Po(40 to 60 )</label><br/>
+						<input type="text" id="pd_Po"/><br/>
+						
+						<label>kd(0 to 60 sec)</label><br/>
+						<input type="text" id="pd_kd"/><br/>
+						<label>Time(0 to 60 sec)</label><br/>
+						<input type="text" id="pd_time"/><br/>
+						
+						<input type="button" id="pControlSubmitbtn" value="SUBMIT" class="submitbtn" class="okbtn"/> 	
+					</div>
+					<div id="innerpidControl" class="innerControls">
+						<label>SetPoint(0 to 100)</label>
+						<input type="text" id="pid_SetPoint"/><br/>
+						<label>MaxInput(0 to 100)</label>
+						<input type="text" id="pid_MaxInput"/><br/>
+						<label>MinInput(0 to 100)</label>
+						<input type="text" id="pid_MinInput"/><br/>
+						<label>kp(0.01 to 1)</label><br/>
+						<input type="text" id="pid_kp"/><br/>
+						<label>Po(40 to 60 )</label><br/>
+						<input type="text" id="pid_Po"/><br/>
+						<label>ki(0.001 to 100 sec)</label><br/>
+						<input type="text"  id="pid_ki"/><br/>
+						<label>kd(0 to 60 sec)</label><br/>
+						<input type="text" id="pid_kd"/><br/>
+						<label>Time(0 to 60 sec)</label><br/>
+						<input type="text" id="pid_time"/><br/>
+						
+						<input type="button" id="pControlSubmitbtn" value="SUBMIT" class="submitbtn"/> 	
+					</div>		
+							
+				</div>
+			</div>
+		<article class="main-footer left">
+			<div>
+				<a href="#" class="left text">File Explorer</a>
+				<a href="#" class="current left text" >console#1</a>
+				<a href="#" class="left text">console#2</a>
+			</div> <!-- End tabs -->
+			<!--error message in console window -->
+			<aside class="console-window"></aside>
+		</article> <!-- END main-footer -->
+	</section> <!-- END of main-page -->
+	<footer >
+		<label class="left">Copyright @ CoEP Virtual labs.All rights reserved.</label>
+	</footer> <!-- END footer -->
+	<div> <!-- <table style ='display:none'><tbody id ="temp" onchange = "dwrScript.startPolling();"></tbody></table> -->
+	 <input type = "text" id = "temp" onchange = "dwrScript.startPolling();"/>
+	</div>
+	
+	<script src="../src/Model/programs.js"></script>		
+	<script type="text/javascript" src="../src/utils/dwrScript.js"></script>
+	<script src='../src/bootstrap.js'></script>
+	<script type="text/javascript" src="../src/utils/Logger.js"></script>
+	
+	<script src='../src/Datastore/dataStore.js'></script>
+	<script type="text/javascript" src="../src/View/blockView.js"></script>
+	<script type="text/javascript" src="../src/View/pageView1.js"></script>
+	<script type="text/javascript" src="../src/View/utilView.js"></script>
+	<script src='../src/View/view.js'></script>
+	<script src='../src/Datastore/jsonCodeGenerator.js'></script>
+	
+	<script src='../src/utils/ExpressionBuilder.js'></script>
+	<script type="text/javascript" src="../src/Interpreter/ScanCycle.js"></script>
+	<script type="text/javascript" src="../src/Interpreter/InstructionTableGenerator.js"></script>
+	<script type="text/javascript" src="../src/Interpreter/ObjectHolder.js"></script>
+	<script type="text/javascript" src="../src/Interpreter/FunctionBlocks.js"></script>
+</body>
+
+</html>

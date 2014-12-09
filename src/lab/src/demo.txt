@@ -1,0 +1,211 @@
+First ::  a&b|c&d
+	PLCSpace.dataStore.CreateProgram(obj,programID);
+		PLCSpace.dataStore.InsertRungInRungModel(obj,programID);
+		PLCSpace.dataStore.InsertRungInRungModel(obj1,programID);
+		PLCSpace.dataStore.InsertLoopOnRung(obj,programID);
+		//PLCSpace.dataStore.InsertLoopOnLoop(obj,programID ,"0_0" );
+		//PLCSpace.dataStore.InsertLoopOnRung(obj1,programID)
+		var obje = {
+			tagname : "a",
+			rungid : 0,
+		
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,-1);;
+		obje = {
+			tagname : "b",
+			rungid : 0,
+			loopid : 0,
+		}
+			PLCSpace.dataStore.InsertElementOnRung(obje,programID , 0);
+		obje = {
+			tagname : "c",
+			rungid : 0,
+			loopid : 0,
+		}	
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID , "0_0" , -1);
+		obje = {
+			tagname : "d",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,  -1);
+		console.log(PLCSpace.dataStore.programContainer.toJSON())
+		
+
+second : a&b|c&d|e|f&g
+PLCSpace.dataStore.CreateProgram(obj,programID);
+		PLCSpace.dataStore.InsertRungInRungModel(obj,programID);
+		//PLCSpace.dataStore.InsertRungInRungModel(obj1,programID);
+		PLCSpace.dataStore.InsertLoopOnRung(obj,programID);
+		
+		 obj = {
+			rungid : 0,
+			name : "rung",
+			loopid : 1
+		}
+		PLCSpace.dataStore.InsertLoopOnRung(obj,programID)
+		PLCSpace.dataStore.InsertLoopOnLoop(obj,programID ,"0_1" );
+		
+		var obje = {
+			tagname : "a",
+			rungid : 0,
+		
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,-1);;
+		obje = {
+			tagname : "b",
+			rungid : 0,
+			loopid : 0,
+		}
+			PLCSpace.dataStore.InsertElementOnRung(obje,programID , 0);
+		obje = {
+			tagname : "c",
+			rungid : 0,
+			loopid : 0,
+		}	
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID , "0_0" , -1);
+		obje = {
+			tagname : "d",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,  1);
+		obje = {
+			tagname : "e",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_1" , 0);
+		
+		
+		obje = {
+			tagname : "f",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_1_0" , -1);
+		obje = {
+			tagname : "g",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,  -1);
+		
+		
+		console.log(PLCSpace.dataStore.programContainer.toJSON())
+		
+
+Third : : a&c&b|e&d|g&f|h&i&
+		PLCSpace.dataStore.CreateProgram(obj,programID);
+		PLCSpace.dataStore.InsertRungInRungModel(obj,programID);
+		//PLCSpace.dataStore.InsertRungInRungModel(obj1,programID);
+		PLCSpace.dataStore.InsertLoopOnRung(obj,programID);
+		
+		 PLCSpace.dataStore.InsertLoopOnLoop(obj,programID ,"0_0" );
+		 PLCSpace.dataStore.InsertLoopOnLoop(obj,programID ,"0_0" );
+		var obje = {
+			tagname : "a",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+		
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,-1);;
+		obje = {
+			tagname : "b",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		}
+			PLCSpace.dataStore.InsertElementOnRung(obje,programID , 0);
+		obje = {
+			tagname : "c",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		}	
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID , 0);
+		obje = {
+			tagname : "d",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_0" ,0);
+		obje = {
+			tagname : "e",
+			rungid : 0,
+			loopid : 0,
+			id : "eee"
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_0" , 0);
+		
+		
+		obje = {
+			tagname : "f",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+			id : "efe"
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_0" , 1);
+		obje = {
+			tagname : "g",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		} 
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_0_0" , -1);
+		obje = {
+			tagname : "h",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		}
+		PLCSpace.dataStore.InsertElementOnLoop(obje,programID ,"0_0_1" , -1);
+		
+		obje = {
+			tagname : "i",
+			type: "open",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 0,
+			loopid : 0,
+		}	
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID , -1);
+		console.log(PLCSpace.dataStore.programContainer.toJSON())
+	
+TIMER ON / OFF : 
+		obje = {
+			tagname : "c1",
+			status:true,
+			hardwareMapper: "hEF",
+			rungid : 1,
+			type : "function",
+			attr : {
+				type : "timer",
+				 functionBlock : {
+				 "type":"TimerOn",
+				 "address" : "c1" , 
+				 "preset" : 100,
+				  "EN" : { "type":"output", "tagName":"c1.en", "status" : "0.0"},
+				 "DN" : { "type":"output", "tagName":"c1.dn", "status" : "0.0"},
+				 "TT" : { "type":"output", "tagName":"c1.tt", "status" : "0.0"},
+				}
+			}
+		}
+		PLCSpace.dataStore.InsertElementOnRung(obje,programID ,  -1);
+		
