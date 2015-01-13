@@ -54,29 +54,30 @@ edit --><!DOCTYPE html>
 <!-- The heading for the section can be enclosed in a 
           div tag. -->
 </br></br></br></br>
-<div class="heading nextline"  id="experiment-article-section-1-heading">
+<div class="heading "  id="experiment-article-section-1-heading">
             Aim
           </div>
 <!-- Write the section content inside a paragraph 
           element, You can also include images with &lt;img&gt; tag -->
-<div class="content" id="experiment-article-section-1-content"><div class="divContent"><h2 style="color: Red;"><strong><u><span style="font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);"><span style="font-size: large;">Aim</span></span></u></strong></h2>
-<p> </p>
-<p class="MsoNormal" style="line-height: 150%; text-align: right;"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">Back To Experiment List</span></a></p>
-<p><span style="font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">         To develop an application using On-Delay timer.</span></p>
-<p> </p>
-<p> </p>
+<div class="content" id="experiment-article-section-1-content"><div class="divContent"><h2 style="color: Red;"><strong><u><span style="font-family: 
+
+arial,helvetica,sans-serif; color: rgb(255, 0, 0);"><span style="font-size: large;"></span></span></u></strong></h2>
+ <p style="margin-bottom: 
+
+0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);"><strong style="font-size: large; color:black;">Aim : 
+
+</strong> To develop an application using On-Delay timer.</p>
+
+<br>
 <p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;">Objective:-</span></strong></span></p>
-<p> </p>
+
 <p> </p>
 <p><!-- p { margin-bottom: 0.21cm; } --></p>
 <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         1. Study the timing diagram of On Delay Timer</span></p>
 <p style="margin-bottom: 0cm;"> </p>
 <p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         2. Solve the assignment of Ton timer<br/>
 </span></p>
-<p style="margin-bottom: 0cm;"> </p>
-<p style="margin-bottom: 0cm;"> </p>
-<p style="margin-bottom: 0cm;"> </p>
-<p style="margin-bottom: 0cm;"> </p>
+
 <p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);"><br/>
 </span></p></div></div>
 </section>
@@ -84,7 +85,7 @@ edit --><!DOCTYPE html>
 <section id="experiment-article-section-2">
 <div class="icon" id="experiment-article-section-2-icon">
 <!-- Enclose the icon image of your lab. -->
-<img src="../images/theory.jpg"/>
+<img src="../images/content_94.png"/>
 </div>
 <!-- The heading for the section can be enclosed in a 
         div tag. -->
@@ -428,8 +429,8 @@ font-family:"Times New Roman","serif";
 mso-fareast-font-family:"Times New Roman";}
 &lt;/style&gt;
 &lt;![endif]--></p>
-<p class="MsoNormal" style="line-height: 150%;"> </p>
-<p class="MsoNormal" style="line-height: 150%;"><b><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'></span></b><b><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'> </span></b><!--[if gte mso 9]&gt;&lt;xml&gt;
+
+<!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
 &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
@@ -747,10 +748,8 @@ mso-pagination:widow-orphan;
 font-size:10.0pt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
-&lt;![endif]--><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><br/>
-</span><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><br/>
-</span></p>
-<p class="MsoNormal" style="line-height: 150%; text-align: right;"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">Back To Experiment List</span></a></p>
+&lt;![endif]-->
+
 <!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -1396,7 +1395,6 @@ font-family:"Times New Roman","serif";}
 <p class="PreformattedText" style="margin-left: 0.5in; text-indent: -0.25in;"><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><span style=""><span style='font: 7pt "Times New Roman";'>   </span></span></span><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'>Off-Delay timer (TOF)</span></p>
 <p class="PreformattedText"><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'> </span></p>
 <p class="PreformattedText" style="margin-left: 0.5in; text-indent: -0.25in;"><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><span style=""><span style='font: 7pt "Times New Roman";'>   </span></span></span><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'>Retentive timer on (RTO)</span></p>
-<p class="PreformattedText"><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'> </span></p>
 
 <p class="PreformattedText"><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'> </span><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif";'><br/>
 </span><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'><br/>
@@ -4417,15 +4415,14 @@ It will be better understood after the given example is developed on the simulat
 <section id="experiment-article-section-5">
 <div class="icon" id="experiment-article-section-5-icon">
 <!-- Enclose the icon image of your lab.-->
-<img src="../images/manual.jpg"/>
+<img src="../images/content_2.png"/>
 </div>
 </br></br></br></br>
 <div class="heading" id="experiment-article-section-5-heading">
           Procedure
         </div>
 <div class="content" id="experiment-article-section-5-content"><div class="divContent">
-<h3 style="color: red; "> </h3>
-<h3 style="color: red; "> </h3>
+
 <h3 style="color: red; "><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -5702,11 +5699,8 @@ mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]--> </big></h3>
-<h3 style="color: red; "> </h3>
-<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> <b></b></span></p>
-<p class="MsoNormal" style="line-height: 150%;"><b><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span></b></p>
 <p class="MsoNormal" style="line-height: 150%;"><b><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'></span></b><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-In this experiment the on delay timer will be tested for its functionalities using Simulator. Following bits of the<br>
+&nbsp;&nbsp;&nbsp;In this experiment the on delay timer will be tested for its functionalities using Simulator. Following bits of the<br>
 timer are to be observed.<br>
 Initialising bit “ON” in this case.<br>
 Enable bit “T_en”<br>
@@ -5734,7 +5728,7 @@ Add new rung to test the timer status or to energies the output. You can also te
 <section id="experiment-article-section-6">
 <div class="icon" id="experiment-article-section-6-icon">
 <!-- Enclose the icon image of your lab.-->
-<img src="../images/manual.jpg"/>
+<img src="../images/content_94.png"/>
 </div>
 </br></br></br></br>
 <div class="heading" id="experiment-article-section-6-heading">
@@ -5752,9 +5746,7 @@ Add new rung to test the timer status or to energies the output. You can also te
             Review Questions
           </div>
 <div class="content" id="experiment-article-section-7-content"><div class="divContent"><h2 style="color: red;"><strong><u><span style="font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);"><span style="font-size: large;">Review Questions</span></span></u></strong></h2>
-<h2> </h2>
-<p class="MsoNormal" style="line-height: 150%; text-align: right;"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">Back To Experiment List</span></a></p>
-<p> </p>
+
 <!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -6090,24 +6082,13 @@ mso-bidi-theme-font:minor-bidi;}
 <h1 style="margin-left: 0.75in; text-align: justify; text-indent: -0.25in; line-height: 150%; page-break-after: auto;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'><span style="">4.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'> "A firecracker an example of ON delay timer", Justify.</span></h1>
 <p> </p>
 <h1 style="margin-left: 0.75in; text-align: justify; text-indent: -0.25in; line-height: 150%; page-break-after: auto;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'><span style="">5.<span style='font: 7pt "Times New Roman";'>   </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black; font-weight: normal;'>"On delay timer cannot be used in case of DG set for hour counting application", Justify.</span></h1>
-<h1> </h1>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
-<p style="text-align: center;"> </p>
+
 <p style="text-align: center;"> </p></div></div>
 </section>
 <section id="experiment-article-section-8">
 <div class="icon" id="experiment-article-section-8-icon">
 <!-- Enclose the icon image of your lab.-->
-<img src="../images/quizzes.jpg"/>
+<img src="../images/content_6.png"/>
 </div>
 </br></br></br></br>
 <div class="heading" id="experiment-article-section-8-heading">
@@ -7404,8 +7385,6 @@ mso-bidi-theme-font:minor-bidi;}
 <p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Arial","sans-serif";'> </span></p>
 <p class="MsoNormal" style="margin-left: 0.25in; line-height: normal;"><span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'>[3] W.Bolton, <i>“Programmable Logic Controllers”,</i> Elsevier, 4th Ed., 2006.</span></p>
 
-<p class="MsoNormal"> </p>
-<p> </p>
 <h3><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -7724,7 +7703,7 @@ font-size:10.0pt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]--></h3>
-<h3> </h3>
+
 <h3><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -8046,14 +8025,14 @@ font-family:"Times New Roman","serif";}
 <h3> </h3>
 <h3> </h3>
 <h3><b style=""><span lang="EN-IN" style='font-size: 12pt; font-family: "Verdana","sans-serif";'>Useful links:</span></b></h3>
-<h2><span style="color: rgb(51, 102, 255);">  </span>
+<h2>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="Word.Document" name="ProgId"/>
 <meta content="Microsoft Word 12" name="Generator"/>
 <meta content="Microsoft Word 12" name="Originator"/>
 <link href="file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List"/>
 <link href="file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData"/>
-<link href="file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><span style="color: rgb(51, 102, 255);"><!--[if gte mso 9]&gt;&lt;xml&gt;
+<link href="file:///C:%5CUsers%5Cinstru%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
 DefSemiHidden="true" DefQFormat="false" DefPriority="99"
 LatentStyleCount="267"&gt;
@@ -8310,7 +8289,8 @@ UnhideWhenUsed="false" QFormat="true" Name="Book Title" /&gt;
 &lt;w:LsdException Locked="false" Priority="37" Name="Bibliography" /&gt;
 &lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" /&gt;
 &lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--></span><style type="text/css"></style><span style="color: rgb(51, 102, 255);"><!--[if gte mso 10]&gt;
+&lt;/xml&gt;&lt;![endif]-->
+<!--[if gte mso 10]&gt;
 &lt;style&gt;
 /* Style Definitions */
 table.MsoNormalTable
@@ -8328,11 +8308,9 @@ mso-pagination:widow-orphan;
 font-size:10.0pt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
-&lt;![endif]--> </span><span style="background: none repeat scroll 0% 0% yellow;"><o:p><span style="color: rgb(51, 102, 255);"><br/>
-</span></o:p></span>
+&lt;![endif]--> 
 </h2>
-<h2><span style="color: rgb(51, 102, 255);"><!--[if !supportLists]--></span></h2>
-<p> </p>
+
 <p><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -8659,7 +8637,7 @@ mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]--></p>
-<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: windowtext;'><span style="">       </span></span><!--[if gte mso 9]&gt;&lt;xml&gt;
+<!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
 &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
@@ -8984,17 +8962,16 @@ mso-hansi-theme-font:minor-latin;
 mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
-&lt;![endif]--></h2>
-<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style=""><span style=""> </span></span><span style="color: rgb(0, 0, 0);">      1<span style="background-color: rgb(255, 255, 255);">.<span style='font: 7pt "Times New Roman";'> </span></span><span style='font: 7pt "Times New Roman";'>    </span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><a href="  http://www.plcdev.com/book/export/html/9"><span style="color: rgb(0, 0, 0);">  http://www.plcdev.com/book/export/html/9</span></a></span><span style="color: rgb(0, 0, 0);"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>  </span></span></h2>
-
-<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);">       2.<span style='font: 7pt "Times New Roman";'>     </span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><a href=" http://www.plcmanual.com/"><span style="color: rgb(0, 0, 0);"> http://www.plcmanual.com/</span></a></span></h2>
-
-<h2 style="margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);">     </span><span style="color: rgb(51, 51, 0);">  </span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">3.</span> </span><b style=""><a href="  http://literature.rockwellautomation.com/" target="_blank"><span style="color: rgb(0, 0, 0);"><small>  http://literature.rockwellautomation.com/</small></span></a></b><b style=""><a href="  http://literature.rockwellautomation.com/"><span style="color: rgb(0, 0, 0);"><small></small></span></a></b></h2>
-
-<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);">       4.<span style='font: 7pt "Times New Roman";'>     </span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><a href=" http://www.automation.siemens.com/"><span style="color: rgb(0, 0, 0);"> http://www.automation.siemens.com/</span></a></span></h2>
-
+&lt;![endif]-->
+<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style=""><span style=""></span></span><span style="color: rgb(0, 0, 0);">1<span style="background-color: rgb(255, 255, 255);">.<span style='font: 7pt "Times New Roman";'> </span></span><span style='font: 7pt "Times New Roman";'>    </span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><a href=" http://www.plcdev.com/book/export/html/9 "><span style="color: rgb(0, 0, 0);"> http://www.plcdev.com/book/export/html/9 </span></a></span><span style="color: rgb(0, 0, 0);"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>  </span></span></h2>
+<h2 style="margin-left: 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);">2.<span style='font: 7pt "Times New Roman";'></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><a href="http://www.plcmanual.com/ "><span style="color: rgb(0, 0, 0);"> http://www.plcmanual.com/ </span></a></span></h2>
+<h2 style="margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);"></span><span style="color: rgb(51, 51, 0);"></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">3.</span> </span><b style=""><a href="http://literature.rockwellautomation.com/"><span style="color: rgb(0, 0, 0);"><small>http://literature.rockwellautomation.com/</small></span></a></b><b style=""><a href="http://www.omega.com/toc_asp/frameset.html?book=Temperature&amp;file=RTD_Gen_Specs_Ref" target="_blank"><span style="color: rgb(0, 0, 0);"><small></small></span></a></b></h2>
+<h2 style="margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;"><span style="color: rgb(0, 0, 0);"></span><span style="color: rgb(51, 51, 0);"></span><span style="color: rgb(0, 0, 0);"><span style="background-color: rgb(255, 255, 255);">4.</span> </span><b style=""><a href="  http://www.automation.siemens.com/"><span style="color: rgb(0, 0, 0);"><small>  http://www.automation.siemens.com/</small></span></a></b><b style=""><a href="http://www.omega.com/toc_asp/frameset.html?book=Temperature&amp;file=RTD_Gen_Specs_Ref" target="_blank"><span style="color: rgb(0, 0, 0);"><small></small></span></a></b></h2>
 <p class="MsoNormal" style="line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span></p>
-<h2 style="margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;"><a href="%C2%A0%20http:/en.wikipedia.org/wiki/Temperature_measurement"><!--[if gte mso 9]&gt;&lt;xml&gt;
+<h2 style="margin: 10pt 0in 0.25in 0.5in; text-indent: -0.25in; line-height: 150%;"><a href="%C2%A0%20http:/en.wikipedia.org/wiki/Temperature_measurement">
+
+
+<!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
 &lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
@@ -9325,7 +9302,7 @@ mso-bidi-theme-font:minor-bidi;}
 <section id="experiment-article-section-9">
 <div class="icon" id="experiment-article-section-9-icon">
 <!-- Enclose the icon image of your lab.-->
-<img src="../images/quizzes.jpg"/>
+<img src="../images/assignment.jpg"/>
 </div>
 </br></br></br></br>
 <div class="heading" id="experiment-article-section-9-heading">
