@@ -53,7 +53,7 @@ tagger = soup.findAll('div', attrs={'id':att,'class':'heading'})
 heading1=str(tagger[0].text)
 print heading
 heading1=heading1.strip()
-breadcrumb='<a href="http://vlabs.ac.in/civil-engineering-labs.html" class="sidebar-a" >Civil Engineering</a> &rarr;<a href="../Introduction.html" class="sidebar-a" >'+heading1+'</a>&nbsp&rarr;<a href="../List of experiments.html" class="sidebar-a" >List Of Experiments</a><br/>'
+breadcrumb='<a href="http://vlabs.ac.in/electrical-engineering-labs.html" class="sidebar-a" >Electrical Engineering</a> &rarr;<a href="../Introduction.html" class="sidebar-a" >'+heading1+'</a>&nbsp&rarr;<a href="../List of experiments.html" class="sidebar-a" >List Of Experiments</a><br/>'
 while sectionNumber<=len(sectionno):
 	tag=""
 	att = ''+'experiment-article-section-'+str(sectionNumber)+'-heading'
@@ -66,9 +66,9 @@ while sectionNumber<=len(sectionno):
 	print tag1
 	if tag1=='Prerequisite S/W':
 		tag1='Prerequisites'
-	st+='<a href="'+tag1+'.html?domain=Civil Engineering&lab='+heading1+'" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">'+tag1+'</h3></a>'	
+	st+='<a href="'+tag1+'.html?domain=Electrical Engineering&lab='+heading1+'" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">'+tag1+'</h3></a>'	
 	sectionNumber=sectionNumber+1
-st+='<a href="Feedback.html?domain=Civil Engineering&lab='+heading1+'" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>'
+st+='<a href="Feedback.html?domain=Electrical Engineering&lab='+heading1+'" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>'
 sectionNumber=1
 while sectionNumber<=len(sectionno):
 	tag=""
