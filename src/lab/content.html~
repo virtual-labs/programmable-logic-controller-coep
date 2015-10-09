@@ -25,7 +25,7 @@ edit -->
     <div id="lab-header-logo" class="logo">
       <!-- Enclose the logo image of your lab or write it in 
       text-->
-      <img src="images/logo.jpg" />
+      <img src="images/logo.png" />
     </div>
 
     <div id="lab-header-heading" class="heading">
@@ -82,7 +82,7 @@ edit -->
       <section id="lab-article-section-1">
         <div id="lab-article-section-1-icon" class="icon">
           <!-- Enclose the icon image for the section. -->
-	  <img src="images/introduction.jpg" />
+	  <img src="images/introduction.png" />
 	</div>
 
 
@@ -111,7 +111,7 @@ edit -->
         
         <div id="lab-article-section-2-icon" class="icon">
           <!-- Enclose the icon image for the section. -->
-	  <img src="images/simulation.jpg" />
+	  <img src="images/content_4.png" />
 	</div>
 
 
@@ -130,67 +130,40 @@ edit -->
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp1/index.html">Study hardware and software used in PLC</a> 
 	    </li>
-	  </ul>
-	</div>
-        <div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
+	 
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp2/index.html">Implementation Logic Gates</a> 
 	    </li>
-	  </ul>
-	</div>
-
-	<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp3/index.html">Implementation Of DOL Starter</a> 
 	    </li>
-	  </ul>
-	</div>
-	<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp4/index.html">Implementation Of On-Delay Timer</a> 
 	    </li>
-	  </ul>
-	</div>
-<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
-	  
+	
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp5/index.html">Implementation Of Off-Delay Timer</a> 
 	    </li>
-	  </ul>
-	</div>
-<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
+	  
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp6/index.html">Implementation Of Up-Down Counter</a> 
 	    </li>
-	  </ul>
-	</div>
-
-<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
+	 
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="exp7/index.html">Implementation Of PLC Arithmatic Instructions</a> 
 	    </li>
-	  </ul>
-	</div>
-
-<div id="lab-article-section-2-content" class="content">
-	  <ul id="list-of-experiments">
+	 
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
