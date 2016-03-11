@@ -24,7 +24,34 @@
     <!-- Custom CSS -->
     <link href="../css/style.css" rel="stylesheet">
 	<script type="text/javascript" src = 'tabs.js'></script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-67558473-1', 'auto');ga('send', 'pageview');</script>	
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-67558473-1', 'auto');ga('send', 'pageview');</script>
+
+<style>
+.qheader{
+font:bold 14px Arial;
+}
+
+.qselections{
+font:normal 13px Arial;
+}
+</style>
+
+<script src="quizconfigPre.js">
+</script>
+
+<script>
+
+/***********************************************
+* JavaScriptKit.com Multiple Choice Quiz Script (http://www.javascriptkit.com)
+* Copyright 2003 JavaScript Kit- http://www.javascriptkit.com
+* This notice and footnote must stay intact for use
+* Visit JavaScript Kit (http://www.javascriptkit.com/) for full source code
+***********************************************/
+
+var actualchoices=new Array()
+document.cookie="ready=yes"
+</script>
+	
 </head>
 <body id="page-top" class="index">
 <div id="top">
@@ -93,14 +120,18 @@
 					<div class="row">
 						<div class="col-md-2 sidebar-col-2">
 						<!--edit1-->
-<a href="Aim.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Aim</h3></a><a href="Pre Test.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Pre Test</h3></a><a href="Theory.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Theory</h3></a><a href="Simulator.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Simulator</h3></a><a href="Procedure.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Procedure</h3></a><a href="Video.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Audio/Video</h3></a><a href="Post Test.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Post Test</h3></a><a href="Review Questions.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Review Questions</h3></a><a href="Reference.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Reference</h3></a><a href="Feedback.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>						</div>
+<a href="AIM.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">AIM</h3></a><a href="Pre Test.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Pre Test</h3></a><a href="Theory.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Theory</h3></a><a href="Procedure.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Procedure</h3></a><a href="Video.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Audio/Video</h3></a><a href="Post Test.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Post Test</h3></a><a href="Review Questions.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Review Questions</h3></a><a href="Reference.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Reference</h3></a><a href="Photo Gallery.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Photo Gallery</h3></a><a href="Feedback.html?domain=Electrical Engineering&lab=Programmable Logic Controller Lab" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>						</div>
 						
 						<div class="col-md-10 lab-list-col-10">
 							
 							<!--edit -->
-<h1 class="text-h2-lightblue">Develop an application using Off-Delay Timer</h1><a href="http://feedback.vlabs.ac.in/">Feedback</a>						</div>
+<h1 class="text-h2-lightblue">Study hardware and software used in PLC</h1><div class="content" id="experiment-article-section-2-content"><p>
+<p>Video will come soon. Work in progress</p>
+</p>					
 					</div>
+				</div>
 			</div>
+		</div>
 			<!-- =================================================================================================================================== -->
 
 
