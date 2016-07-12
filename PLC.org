@@ -1,0 +1,143 @@
+#+title: Requirement/Workflow for Programmable logic Controller Lab
+#+Author: Integration Team
+#+Date: [2016-06-19]
+
+This document contains the basic work flow and requirement for Programmable logic controller Lab.Testing should happen against all the requirements mentioned in this document by integration team. 
+
+* Lab wise requirements 
+
+Main page Should contain following tabs for Programmable logic controller Lab with the content related to the introduction.
+
+** Introduction
+
+Content should display on page related to the introduction of Programmable logic controller Lab.
+
+** List of experiments 
+
+List of experiment related to Programmable logic controller Lab should display on page.
+
+* Experiment wise requirements
+
+** Study hardware and software used in PLC Experiment 
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test,Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button.
+
+- Posttest tab:When we click on the  Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+  
+** Implementation of Logic Gates Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development,he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab: when we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab: when we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation of DOL starter Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development, he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation of On-Delay Timer Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development,he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation of Off-Delay Timer Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development,he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation of Up-Down Counter Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link, Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development,he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation Of PLC Arithmetic Instructions Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development,he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the  Feedback link,Feedback page should get display with all fields and Submit button.
+
+** Implementation of PID controller Experiment
+
+It should contain the Aim,Pretest,Theory,Procedure,Audio/Video,Post test, Review Questions,Reference,Photo Gallery and feedback on the left corner and all the tabs should contain the relevant information.
+
+- Pretest tab:When we click on the  Pretest link,Pretest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Simulator:When we click on Simulator tab,simulator link should get open.This link should open programming area for user    to write the program,compile and run it.Top left corner of screen contains different type of inputs and right side has various buttons like Open,Save,Compile,Run,Development.
+
+  User should be able to develop programming logic as per given question.
+
+  Once user have done with programming logic development, he/she should be able to save,compile and run his/her code using Save,compile and Run button.User also open another program logic in same window using open button.User can switch from run mode to off-line mode using Development button on the screen.
+  
+- Posttest tab:When we click on the Pretest link,Posttest page should get display on the screen with questions along with objectives and Submit and Reset button. 
+  
+- Feedback tab:When we click on the Feedback link,Feedback page should get display with all fields and Submit button.
+
