@@ -1,0 +1,31 @@
+* Author: Ashwini Arjugade
+* Date: 14 June 2016
+
+* Environment
+  - OS:Windows,Linux 
+  - Browsers:firefox,Chrome
+  - Bandwidth: 100 mbps
+  - Hardware Configuration:4 GB
+  - Processor:i5
+
+* Objective
+  - To view the Aim of “Implementation of Logic Gates” experiment
+ 
+* Pre Condition 
+  - Open the url vlabs.ac.in and vlabs home page will be displayed
+  - Click on "COE Pune" and a list of labs will be displayed on the screen
+  - Select “PLC”, a home page will be displayed on the screen and click on List of Experiments link, where a list of experiments will be displayed on the screen.
+  - Select “Implementation of Logic Gates” experiment.
+
+* Post condition
+  - Nil	
+
+* Test Step    
+  - Click on the Aim link
+  - View the Aim page
+
+* Expected result     
+  - Aim page should be opened
+  - Content should be present with no distortions and Junk characters
+
+* Review/comments
