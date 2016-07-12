@@ -25,7 +25,7 @@
   - View the theory page
 
 * Expected result     
-  - theory page should be opened
+  - Theory page should be opened
   - Content should be present with no distortions and Junk characters
 
 * Review/comments
