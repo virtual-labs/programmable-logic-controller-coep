@@ -15,7 +15,7 @@
   - Open the url vlabs.ac.in and vlabs home page will be displayed
   - Click on "COE Pune" and a list of labs will be displayed on the screen
   - Select “PLC”, a home page will be displayed on the screen and click on List of Experiments link, where a list of experiments will be displayed on the screen.
-  - Select “Study hardware and software platforms for DCS” experiment.
+  - Select “Study hardware and software used in PLC” experiment.
 
 * Post condition
   - Nil	
